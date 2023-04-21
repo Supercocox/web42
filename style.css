@@ -28,6 +28,7 @@ a:hover {
 h3 {
     background: rgb(42, 123, 196);
     padding: 20px;
+    color: white;
 }
 
 main {
@@ -48,4 +49,92 @@ header {
 
 html {
     scroll-behavior:smooth;
+}
+
+
+table{
+
+    margin: 100px auto 100px auto;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-collapse: collapse;
+
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+td{
+    height: 20px;
+
+}
+.titulo{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.login{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.lugar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:normal;
+    font-size: 1em;
+    color:gray;
+}
+.contacto{
+    background-color: black;
+}
+
+.contacto a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    height: 200px;
+
+}
+
+td.redes{
+    font-size: 1em;
+}
+
+table.educa{
+    margin: 100px auto 100px auto;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    background-color: orange;
+   }
+
+table.experic{
+    margin: 100px auto 100px auto;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    background-color: violet;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+h4{
+    font-weight: bold;
 }
